@@ -1,0 +1,87 @@
+body {
+  font-family: "Hiragino Maru Gothic Pro","ヒラギノ丸ゴ Pro W4","Meiryo";
+  margin-top: 50px;
+}
+
+
+#name{
+  margin-top: 10px;
+}
+
+#my_photo{
+  margin: 10px 0px;
+}
+
+#inquiry{
+  margin-top: 10px;
+}
+
+.myphoto{
+  width: 100px;
+  height: 100%;
+}
+
+.photo_left{
+  width: 30px;
+  height: 100%;
+}
+
+
+.photo{
+  width: 20px;
+  height: 100%;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+.left-side {
+  width: 150px;
+  text-align: center;
+}
+
+#form{
+  margin-top: 15px;
+}
+
+#form a {
+  color: blue;
+}
+
+.right-side {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  padding: 10px;
+}
+
+.td_val {
+  text-align: left;
+}
+
+@media (max-width: 767px) { 
+  .container {
+  width: 90%;
+  display: block;
+}
+.left-side {
+  width: 100%;
+  text-align: center;
+}
+.right-side {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+}
